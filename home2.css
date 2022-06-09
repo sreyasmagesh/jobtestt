@@ -323,7 +323,7 @@
         
       }
       #rightbar{
-        transform: translateX(-20px);
+        transform: translateX(-15px);
     }
       .header{
           transform: translateY(-300px);
@@ -340,22 +340,29 @@
       .list1{
           transform: translateY(-400%);
       }
+     
       .sidebar{
           transform: translateX(-1770%);
       }
       .logo{
-          width: 45%;
-          transform: translateX(60%);
+          width: 35%;
+          transform: translatey(90%);
           
           
       }
       #column img{
-          width: 20vh;
+          width: 60vh;
+          
+          display: flex;
+          justify-content: center;
+          margin-bottom: -72%;
+         
       }
       #column{
         margin-bottom: 60%;
         margin-top: -10%;
       }
+      
      
 }
 
@@ -377,15 +384,16 @@
     
   }
   #rightbar{
-    transform: translateX(-27px);
+    transform: translateX(0px);
 }
   .listt ul li{
     transform: translateY(-300px);
 }
   #column img{
-    width: 30vh;
-    margin-right: 30%;
-    margin-left: 10%;
+    width: 40vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -480%;
 }
 .header{
     transform: translateY(-390px);
