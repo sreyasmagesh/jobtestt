@@ -351,11 +351,12 @@
           
       }
       #column img{
-          width: 60vh;
+          width: 33vh;
           
           display: flex;
           justify-content: center;
           margin-bottom: -72%;
+          margin-left: 17%;
          
       }
       #column{
@@ -372,7 +373,7 @@
       }
       
     #rightbar{
-        transform: translateX(60px);
+        transform: translatey(-460px);
     }
    
   
@@ -384,16 +385,17 @@
     
   }
   #rightbar{
-    transform: translateX(0px);
+    margin-right: 0%;
 }
   .listt ul li{
     transform: translateY(-300px);
 }
   #column img{
-    width: 40vh;
+    width: 25vh;
     display: flex;
     justify-content: center;
     margin-bottom: -480%;
+    margin-left: 17%;
 }
 .header{
     transform: translateY(-390px);
