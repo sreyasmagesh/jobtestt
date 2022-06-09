@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="home2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="home2.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+</head>
+<body>
+  <div  class="header">
+      <div class="header1">
+         <h4>Welcome to Magic Bakers</h4> 
+         <span id="phone" class="glyphicon glyphicon-earphone"></span>
+         <h3>Call Us:9876543210</h3> 
+      </div>
+      <div class="header2">
+         <span id="heart" class="glyphicon glyphicon-heart"></span>
+         <h1>Wishlist</h1>
+         <span id="user" class="glyphicon glyphicon-user"></span>
+         <h2>Profie</h2>
+      </div>
+  </div> 
+   
+  <div  class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none;" id="leftMenu">
+    <button  onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+    <a href="#" class="w3-bar-item w3-button">CAKES</a>
+    <a href="#" class="w3-bar-item w3-button">CHOCOLATES</a>
+    <a href="#" class="w3-bar-item w3-button">ICE CREAMS</a>
+  </div>
+  
+  <div  class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
+    <button  onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+    <a href="#" class="w3-bar-item w3-button">POPULAR</a>
+    <a href="#" class="w3-bar-item w3-button">NEW CHOICES</a>
+    <a href="#" class="w3-bar-item w3-button">ICE CREAM</a>
+    <a href="#" class="w3-bar-item w3-button">ABOUT US</a>
+  </div>
+  
+  <div id="sidebars" class="w3-teal">
+    <button id="leftbar" class="w3-button w3-teal w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
+    <button id="rightbar" class="w3-button w3-teal w3-xlarge w3-right" onclick="openRightMenu()">&#9776;</button>
+    <div style="background-color:rgb(255, 255, 255) ;" class="w3-container">
+      
+     
+    </div>
+  </div>
+  <div>
+      <center>
+          <img src="logo.png" alt="">
+      </center>
+  </div>
+<div class="listt">
+    <center>
+        <ul >
+            <li><a href="">POPULAR</a> </li>
+            <li><a href="">NEW PRODUCT</a></li>
+            <li><a href="">CAKE</a></li>
+            <li><a href="">ICECREAM</a></li>
+            <li><a href="">ABOUT</a></li>
+        </ul>
+    </center>
+    
+</div>
+  <div class="roww">
+    <div id="column" class="columnn">
+      <img src="mickey.jpg">
+    </div>
+
+    <div  id="columnnn" class="columnn">
+      
+      <p><br> &#128293; 37 orders in last 24 hours &emsp;&emsp;&#128107; 45 active viewers </p>
+      <h1  >TWO TIER MICKEY THEME CAKE</h1>
+            <div style="display:inline;"  class="rate">
+              &emsp;
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star "></span>
+            </div>
+      <p style="display:inline;width: 100%;">&emsp;120 rating</p><br><br>
+      &emsp;
+      <h3 style="color:white;background-color: rgb(63, 61, 61);display: inline;padding: 2%;font-size: smaller;border-radius: 4px;"> Estimated Delivery</h3>
+      <p style="transform: translateY(-92%);">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Tommorrow</p>
+       <h1 id="total" style="display: inline;">Rs 1500 &emsp;<s style="font-size:60% ;">Rs2000</s></h1><h1 style="display: inline;color:brown;font-size: 90%;">-10% OFF</h1>
+      <div style="margin-top: 10px;" class="row">
+              <div class="column">
+              <img src="mickey.jpg">
+              <h1>&emsp;&emsp;1kg</h1>
+              </div>
+              <div class="column">
+                <img src="mickey.jpg">
+                <h1>&emsp;&emsp;2kg</h1>
+              </div>
+              <div class="column">
+                <img src="mickey.jpg">
+                <h1>&emsp;&emsp;3kg</h1>
+              </div>
+              <div class="column">
+                <img src="mickey.jpg">
+                <h1>&emsp; 4kg</h1>
+              </div>
+      </div>
+          <div style="display: inline;margin-top: 53%;">
+            <h2>Select Shape</h2><br>
+            <h2 style="border:solid 1px rgb(7, 4, 4) ;display: inline;font-size: 15px;padding: 10px;border-radius: 4px;">TWO TIER</h2><br><br>
+            <h2>Quantity</h2><br>
+               <div class="containe">
+                  <input type="button" onclick="decrementValue()" value="-" />
+                  <input type="text" name="quantity" value="1" maxlength="2" max="10" size="1" id="number" />
+                  <input type="button" onclick="incrementValue()" value="+" />
+               </div>
+          </div>
+          <div style="display:inline ;float:right;margin-top:-23%;margin-right: 10%;">
+            <input type="checkbox">
+            <h4 style="display:inline ;">Eggless</h2><br><br>
+            <input type="checkbox">
+            <h4 style="display:inline ;">Sugerless</h2>
+          </div><br><br>
+          <div >
+            <div>
+              <h4>writing on cake</h2>
+              <input type="text" placeholder="Eg:happy birthday name"size=40>
+            </div>
+            <div>
+              <h4>suggestion on cake or delivery instruction</h2>
+              <input type="text" placeholder="Eg:Surprise delivery ,cake in blue color"size=40>
+            </div>
+            <div>
+              <h4>enter pincode</h2>
+              <input style="padding-bottom: 3px;" type="text" placeholder="Eg:Dlivery Pincode"size=40>
+            </div>
+          </div><br><br>
+        <div>
+          <a href=""><h5 class="add" style="display:inline-block;margin-left: 5%;background-color: rgb(255, 1, 65);color: aliceblue;padding: 15px; border-radius: 1px;text-decoration: none;">ADD TO CART</h2></a>
+          <a href=""><h5 class="wish" style="display:inline-block;margin-left:10%;background-color: rgb(255, 1, 65);color: aliceblue;padding:15px;border-radius: 1px;text-decoration: none;">WISHLIST</h2></a>
+        </div><br><br>
+        <div>
+          <p>100% Happiness is our promise
+            Delivering high quality cakes at your door step on time is our ultimate Motto
+            ( COD ) Cash on Delivery available (Except for theme cakes)
+            Safe and Hygienic Delivery Guaranteed</p>
+        </div> 
+        <div  class="iconn">
+          <a href="#"><i  class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+    </div>
+  </div>
+  <div style="color:rgb(0, 0, 0) ;" class="list">
+    <ul>
+      <li><a href="">DETAILS</a> </li>
+      <li><a href="">SPECIFICATION</a></li>
+      <li><a href="">VIDEOS</a></li>
+      <li><a href="">WRITE REVIEW</a></li>
+    </ul>
+  </div><br><br>
+  <h2 style="color:rgb(255, 0, 21) ;">&emsp;&emsp;RELATED PRODUCT</h1>  
+  
+    <div style="margin-top: -10px;" class="rowww">
+      <div class="column1">
+      <img src="cake1.png">
+      <h1>&ensp;FROZEN CAKE</h1>
+      </div>
+      <div class="column1">
+        <img src="cake2.jpg">
+        <h1>CHOCO CAKE</h1>
+      </div>
+      <div class="column1">
+        <img src="cake3.jpg">
+        <h1>MICKY CAKE</h1>
+      </div>
+      <div class="column1">
+        <img src="cake4.jpg">
+        <h1>RASMALAI CAKE</h1>
+      </div>
+      <div class="column1">
+        <img src="cake5.jpg">
+        <h1>RONALDO CAKE</h1>
+      </div>
+    </div>
+
+
+    <div class="input">
+      <input  type="email" placeholder="Email Address">
+      <a href="">Get Started></a>
+    </div><br><br>
+
+
+
+
+     <div  class="containe my-5">
+        <!-- Footer -->
+        <footer
+                class="text-center text-lg-start text-dark"
+                style="background-color: #c2c2c2;"
+                >
+          <!-- Section: Social media -->
+          <section
+                   class="d-flex justify-content-between p-4 text-white"
+                   style="background-color: #444444"
+                   >
+            <!-- Left -->
+            <div class="me-5">
+              <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+      
+            <!-- Right -->
+            <div>
+               
+            </div>
+            <!-- Right -->
+          </section>
+          <!-- Section: Social media -->
+      
+          <!-- Section: Links  -->
+          <section class="">
+            <div class="container text-center text-md-start mt-5">
+              <!-- Grid row -->
+              <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                  <!-- Content -->
+                  <h6 class="text-uppercase fw-bold"><img src="logo.png" alt=""></h6>
+                  <p>
+                  we always love to be a part in your celebration ,may not be by
+                    physical presense,but by serving you a beautiful cake of your choice
+                  </p>
+                  <div  class="icon">
+                    <a href="#"><i  class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                  </div>
+                </div>
+                <!-- Grid column -->
+      
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold">ABOUT</h6>
+                  <hr
+                      class="mb-4 mt-0 d-inline-block mx-auto"
+                      style="width: 60px; background-color: #7c4dff; height: 2px"
+                      />
+                  <p>
+                    <a href="#!" class="text-dark">Contact Us</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-dark">About us</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-dark">Carriers</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-dark"></a>
+                  </p>
+                </div>
+                <!-- Grid column -->
+      
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold">POLICY</h6>
+                  <hr
+                      class="mb-4 mt-0 d-inline-block mx-auto"
+                      style="width: 60px; background-color: #7c4dff; height: 2px"
+                      />
+                  <p>
+                    <a href="#!" class="text-dark">Shipping Policy</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-dark">Refund Policy</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-dark">Terms and condition</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-dark"></a>
+                  </p>
+                </div>
+                <!-- Grid column -->
+      
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold">Contact</h6>
+                  <hr
+                      class="mb-4 mt-0 d-inline-block mx-auto"
+                      style="width: 60px; background-color: #7c4dff; height: 2px"
+                      />
+                  <p><i class="fas fa-home mr-3"></i> 47/764-D ,first floor,villiadath building,post cilakkavattom, kochi, kerala</p>
+                  <p><i class="fas fa-envelope mr-3"></i> support@workceptive.com</p>
+                  <p><i class="fas fa-phone mr-3"></i>9876543210</p>
+                  <p><i class="fas fa-print mr-3"></i>1234567890</p>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+            </div>
+          </section>
+          <!-- Section: Links  -->
+      
+          <!-- Copyright -->
+          <div
+               class="text-center p-3"
+               style="background-color: rgba(0, 0, 0, 0.2)"
+               >
+            © 2020 Copyright:
+            <a class="text-dark" href="https://mdbootstrap.com/"
+               >MDBootstrap.com</a
+              >
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+      </div>
+      <!-- End of .container -->
+
+</body>
+</html>
